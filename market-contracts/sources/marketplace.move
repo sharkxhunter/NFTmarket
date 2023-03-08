@@ -9,7 +9,8 @@ module _1200_dollars_per_hour::marketplace{
     use aptos_std::table::{Self, Table};
     use aptos_token::token;
     use aptos_token::token_coin_swap::{ list_token_for_swap, exchange_coin_for_token };
-
+    
+    #variables & structures definition
     const ESELLER_CAN_NOT_BE_BUYER: u64 = 1;
     const FEE_DENOMINATOR: u64 = 10000;
 
